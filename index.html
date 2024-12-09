@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Scorecard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Golf Scorecard</h1>
+        
+        <div class="course-selection">
+            <label for="courseSelect">Select Course:</label>
+            <select id="courseSelect">
+                <option value="11819">Thanksgiving Point Golf Course</option>
+                <option value="18300">Fox Hollow Golf Course</option>
+                <option value="19002">Spanish Oaks Golf Course</option>
+            </select>
+            
+            <label for="teeSelect">Select Tee:</label>
+            <select id="teeSelect">
+                <option>Loading tees...</option>
+            </select>
+        </div>
+
+        <div class="players-section">
+            <button id="addPlayer">Add Player</button>
+        </div>
+
+        <div class="scorecard">
+            <table id="scorecardTable">
+                <thead>
+                    <tr class="header-row">
+                        <th>Hole</th>
+                        <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th>
+                        <th>OUT</th>
+                        <th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th>
+                        <th>IN</th>
+                        <th>TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody id="scorecardBody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
