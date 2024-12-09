@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.course-selection {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    min-width: 200px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.scorecard {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    min-width: 40px;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+}
+
+.info-row td {
+    background-color: #f5f6fa;
+    font-weight: bold;
+}
+
+.player-row input {
+    width: 40px;
+    text-align: center;
+    padding: 4px;
+}
+
+.player-name {
+    width: 150px !important;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.info-row td:first-child {
+    background-color: #e8e8e8;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.total-cell {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
